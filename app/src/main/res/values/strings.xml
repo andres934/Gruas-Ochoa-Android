@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MRService</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ingresar">ingresar</string>
+    <string name="registrar">registrar</string>
+    <string name="username">ingrese usuario</string>
+    <string name="contrasena">Ingrese contraseña</string>
+    <string name="title_activity_registro">registro</string>
+    <string name="nomregis">Nombre</string>
+    <string name="usuario"></string>
+    <string name="title_activity_registrochofer">registrochofer</string>
+    <string name="title_activity_edicionchofer">edicionchofer</string>
+    <string name="title_activity_gruas">gruas</string>
+    <string name="title_activity_empresas">empresas</string>
+    <string name="title_activity_tutorial">tutorial</string>
+    <string name="title_activity_listaprecios">listaprecios</string>
+    <string name="nomchofer">Nombre Chofer</string>
+    <string name="cedulachofer">Cedula Chofer</string>
+    <string name="edadchofe">Edad Chofer</string>
+    <string name="gruaposee">Grua que posee</string>
+    <string name="datoschofer">Guardar Datos</string>
+    <string name="vehiculo911">Vehiculo</string>
+    <string name="desde">Desde</string>
+    <string name="hasta">Hasta</string>
+    <string name="vehicul">Vehiculo</string>
+    <string name="desd">Desde</string>
+    <string name="precio">Precios</string>
+    <string name="darprecio">Enter</string>
+    <string name="title_activity_mensajes">mensajes</string>
+    <string name="title_activity_registrousu">registrousu</string>
+    <string name="title_activity_listachoferes">listachoferes</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_index">Index</string>
+    <string name="title_activity_choferes_adapter">choferesAdapter</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_user_main">UserMain</string>
+    <string name="title_activity_adminswipe">Adminswipe</string>
+    <string name="title_activity_usuarioadmin">Usuarioadmin</string>
+    <string name="title_activity_usermain2">Usermain2</string>
+    <string name="title_activity_user_profile">UserProfile</string>
+    <string name="title_activity_services_list">ServicesList</string>
+    <string name="title_activity_service_details">ServiceDetails</string>
+    <string name="title_activity_login">MRservice</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Iniciar Sesion o Registro</string>
+    <string name="action_sign_in_short">Iniciar Sesion</string>
+    <string name="error_invalid_email">Este correo es invalido</string>
+    <string name="error_invalid_password">La contraseña es muy corta</string>
+    <string name="error_incorrect_password">Contraseña incorrecta</string>
+    <string name="error_field_required">Este campo es necesario</string>
+    <string name="permission_rationale">"Permiso de contactos es necesario para proveer el Email."
+    </string>
+
+</resources>

@@ -1,0 +1,251 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.luiggi.myapplication.Usuarioadmin"
+    android:orientation="vertical"
+    android:background="#ff9d9d9d">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView3"
+        android:background="#eeeeee">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Origen"
+                android:id="@+id/textView26"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="25dp"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Universidad Jose Antonio Paez"
+                android:id="@+id/Origen"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Referencia Origen"
+                android:id="@+id/textView30"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Entrada Principal de la Universidad"
+                android:id="@+id/Reforigen"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Destino"
+                android:id="@+id/textView27"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Urb Tulipan, Galpon 22"
+                android:id="@+id/Destino"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Referencia Destino"
+                android:id="@+id/textView31"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Urb Tulipan, final de la calle a la izquierda"
+                android:id="@+id/Refdestino"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tipo Servicio"
+                android:id="@+id/textView34"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Remolque"
+                android:id="@+id/Tiposervicio"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Tipo Cliente"
+                android:id="@+id/textView35"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Particular"
+                android:id="@+id/Tipocliente"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Precio Servicio"
+                android:id="@+id/textView39"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="1000Bsf"
+                android:id="@+id/Monto"
+                android:layout_marginLeft="0dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"
+                android:layout_marginTop="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Seleccione Chofer"
+                android:id="@+id/textView42"
+                android:layout_gravity="center_horizontal" />
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:id="@+id/Chofer"
+                android:spinnerMode="dialog"
+                android:background="#000000" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="fill_parent"
+                android:text="Enviar Servicio"
+                android:id="@+id/enviarservicio"
+                android:textSize="10dp"
+                android:background="@drawable/border"
+                android:onClick="mensaje" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

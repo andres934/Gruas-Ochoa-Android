@@ -1,0 +1,139 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.luiggi.myapplication.UserMain"
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView5" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="400dp">
+
+                <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/map"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:name="com.google.android.gms.maps.MapFragment"/>
+
+                <ImageView
+
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imageButton"
+                    android:layout_gravity="left|top"
+                    android:src="@drawable/user"
+                    android:onClick="profile"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/MenuSearch">
+
+                <FrameLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <!--<com.example.luiggi.myapplication.DelayAutoCompleteTextView
+                        android:id="@+id/geo_autocomplete"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:imeOptions="flagNoExtractUi|actionSearch"
+                        android:inputType="textCapSentences"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="35dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:padding="10dp"
+                        android:dropDownWidth="fill_parent"/>-->
+                    <AutoCompleteTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginEnd="35dp"
+                        android:layout_marginRight="35dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:padding="10dp"
+                        android:id="@+id/autocomplete"
+                        android:hint="Type in your Location" />
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/geo_autocomplete_clear"
+                        android:layout_gravity="right|center_vertical"
+                        android:src="@drawable/abc_ic_search_api_mtrl_alpha" />
+
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:showDividers="middle">
+
+                    <Spinner
+                        android:layout_width="200dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/Tiposervicio"
+                        android:layout_weight="6.74"
+                        android:spinnerMode="dialog" />
+
+                    <FrameLayout
+                        android:layout_width="225dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2.09">
+
+                        <EditText
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textMultiLine"
+                            android:ems="10"
+                            android:id="@+id/origenref"
+                            android:layout_gravity="center"
+                            android:hint="Referencia"/>
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/imageView8"
+                            android:src="@android:drawable/ic_menu_edit"
+                            android:layout_gravity="right|top" />
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <Button
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:text="Solicitar Servicio"
+                    android:id="@+id/Solicitar"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/border"
+                    android:onClick="user2"
+                    android:textColor="#19b33f" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
